@@ -20,6 +20,7 @@ body {
 	background: linear-gradient(115deg, rgba(86, 216, 228,1) 5%,rgba(159, 1, 234,1) 95%);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	overflow: hidden;
 }
 
 a {
@@ -129,37 +130,6 @@ main {
 	justify-self: start;
 }
 
-.demos {
-	position: relative;
-	display: block;
-	align-self: end;
-	text-align: center;
-	grid-area: demos;
-}
-
-.demo {
-	margin: 0 0.15em;
-}
-
-.demo:hover,
-.demo:focus {
-	opacity: 0.5;
-}
-
-.demo span {
-	white-space: nowrap;
-	text-transform: lowercase;
-	pointer-events: none;
-}
-
-.demo span::before {
-	content: '#';
-}
-
-a.demo--current {
-	pointer-events: none;
-}
-
 /* Top Navigation Style */
 .codrops-links {
 	position: relative;
@@ -176,46 +146,10 @@ a.demo--current {
 	padding: 0.25em;
 }
 
-@media screen and (min-width: 55em) {
-	.icon--keyboard {
-		position: absolute;
-		right: 0.55em;
-		bottom: -30%;
-		display: block;
-		width: 54px;
-		height: 46px;
-		fill: var(--color-link);
-	}
-	.demos {
-		display: flex;
-		padding-right: 80px;
-
-		justify-self: end;
-	}
-	.demo {
-		display: block;
-		width: 17px;
-		height: 17px;
-		margin: 0 4px;
-		border-radius: 50%;
-		background: var(--color-link);
-	}
-	a.demo--current {
-		background: var(--color-link-hover);
-	}
-	.demo span {
-		line-height: 1;
-		position: absolute;
-		right: 100%;
-		display: none;
-		margin: 0 1em 0 0;
-	}
-	.demo--current span {
-		display: block;
-	}
-}
-
 @media screen and (max-width: 55em) {
+	body {
+		overflow: auto;
+	}
 	.content {
 		flex-direction: column;
 		height: auto;
