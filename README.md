@@ -8,6 +8,11 @@ A slider made with the [Pieces](https://github.com/lmgonzalves/pieces) library w
 
 [Demo](http://tympanus.net/Development/PiecesSlider/)
 
+
+## Popular frameworks wrapper
+
+- [vue-piece-slider](https://github.com/dreambo8563/vue-piece-slider) By Vincent Guo.
+
 ## Credits
 
 - [Pieces](https://github.com/lmgonzalves/pieces) by Luis Manuel
