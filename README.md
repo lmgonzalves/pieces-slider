@@ -6,7 +6,7 @@ A slider made with the [Pieces](https://github.com/lmgonzalves/pieces) library w
 
 [Article on Codrops](https://tympanus.net/codrops/?p=33985)
 
-[Demo](http://tympanus.net/Development/PiecesSlider/)
+[Demo](https://tympanus.net/Tutorials/PiecesSlider/)
 
 
 ## Popular frameworks wrapper
